@@ -6,7 +6,13 @@ Go语言是一种高效、简洁和可靠的编程语言，它具有强大的类
 
 ### 目录
 
-- options模式
+#### DONE
+
+- [options模式](https://github.com/ibarryyan/go-design-patterns/tree/master/code/01-options)
+
+- [模板方法模式](https://github.com/ibarryyan/go-design-patterns/tree/master/code/03-template)
+
+#### TODO
 
 - register模式
 
@@ -14,6 +20,6 @@ Go语言是一种高效、简洁和可靠的编程语言，它具有强大的类
 
 - 建造者模式
 
-- 模板方法模式
+- 工厂模式
 
-- TODO
+- 对象池模式
