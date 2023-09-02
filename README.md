@@ -14,6 +14,11 @@ Go语言是一种高效、简洁和可靠的编程语言，它具有强大的类
 
 - [策略模式](https://github.com/ibarryyan/go-design-patterns/tree/master/code/04-strategy)
 
+- [单例模式](https://github.com/ibarryyan/go-design-patterns/tree/master/code/04-strategy)
+
+- [建造者模式](https://github.com/ibarryyan/go-design-patterns/tree/master/code/04-strategy)
+
+
 #### TODO
 
 - register模式
