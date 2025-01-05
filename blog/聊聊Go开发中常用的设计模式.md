@@ -54,19 +54,19 @@
 import "sync"
 
 type MysqlConn struct {
-	Addr string
+    Addr string
 }
 
 var (
-	mysqlConn *MysqlConn
-	once = sync.Once{}
+    mysqlConn *MysqlConn
+    once = sync.Once{}
 )
 
 func GetMySQLConn() *MysqlConn {
-	once.Do(func() {
-		mysqlConn = &MysqlConn{Addr: "127.0.0.1"}
-	})
-	return mysqlConn
+    once.Do(func() {
+        mysqlConn = &MysqlConn{Addr: "127.0.0.1"}
+    })
+    return mysqlConn
 }
 ```
 
@@ -119,12 +119,12 @@ import (
 )
 
 type MakeYogurtTemplate interface {
-	CreateYogurt() //准备好酸奶
-	CutFruit()     //切水果
-	Merge()        //放在一起搅拌
-	Optimize()     //调制味道
-	Eating()       //开吃
-	Do()
+    CreateYogurt() //准备好酸奶
+    CutFruit()     //切水果
+    Merge()        //放在一起搅拌
+    Optimize()     //调制味道
+    Eating()       //开吃
+    Do()
 }
 
 type DragonFruit struct {
