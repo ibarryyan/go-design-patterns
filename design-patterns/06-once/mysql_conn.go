@@ -8,9 +8,8 @@ type MysqlConn struct {
 
 var (
 	mysqlConn *MysqlConn
-	once = sync.Once{}
+	once      = sync.Once{}
 )
-
 
 func GetMySQLConn() *MysqlConn {
 	once.Do(func() {

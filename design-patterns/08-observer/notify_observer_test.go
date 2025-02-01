@@ -14,5 +14,5 @@ func TestName(t *testing.T) {
 	subject.Register(observer2) // 注册观察者2
 
 	subject.SetState("new state") // 设置状态并通知观察者
-	time.Sleep(5*time.Second)
+	time.Sleep(5 * time.Second)
 }

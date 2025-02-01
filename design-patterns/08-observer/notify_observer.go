@@ -46,4 +46,3 @@ type ConcreteObserver2 struct{}
 func (o ConcreteObserver2) Update(state string) {
 	fmt.Printf("ConcreteObserver2 received state: %s\n", state)
 }
-
